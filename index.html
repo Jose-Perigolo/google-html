@@ -16,7 +16,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
+        margin: 40px auto;
         padding: 0;
         width: 100%;
         height: 100%;
@@ -56,7 +56,7 @@
       .container {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: baseline;
         justify-content: center;
         width: 100%;
         height: 100%;
@@ -127,9 +127,9 @@
       }
 
       .proposal-text {
-        position: absolute;
-        left: 33%;
-        margin: 50px;
+        position: relative;
+        left: 70%;
+        top: 20%;
         font-size: 1.8rem;
         font-weight: bold;
         max-width: 300px;
@@ -137,7 +137,7 @@
 
       .yellow {
         background-color: #fbbc04;
-        width: 280px;
+        width: 240px;
         height: 200px;
         border-radius: 0px 100px 100px 0px;
       }
@@ -145,6 +145,41 @@
       .computer {
         width: 450px;
       }
+
+      .detach-header {
+        width: 100%;
+      }
+
+      .detach {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 80px;
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 2rem auto 0 auto;
+      }
+
+      .detach-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 300px
+      }
+
+      .detach-obs {
+        font-size: .7rem;
+      }
+
 
     </style>
   </head>
@@ -160,7 +195,7 @@
               <h2 class="header-flag-second-text">Exclusivo</h2>
             </h1>
           </div>
-          <img class="banner" src="https://i.ibb.co/9btt8TD/header.png" alt="header" border="0" />
+          <img class="banner" src="https://i.ibb.co/XFL3n9L/cabecalho.png" alt="cabecalho" border="0" />
         </div>
       </header>
       <div class="container">
@@ -183,19 +218,60 @@
             </p>
           </div>
           <div>
-            <img class="leonardo" src="https://i.ibb.co/nzHp9NM/leonardo.png" alt="leonardo" border="0">
+            <img class="leonardo" src="https://i.ibb.co/nzHp9NM/leonardo.png" alt="leonardo" border="0" />
           </div>
         </div>
         <div class="proposal">
-            <div class="yellow">
-                <b class="proposal-text">Esse é o nosso propósito e como atuamos:</b>
-            </div>
-            <div>
-                <img class="computer" src="https://i.ibb.co/gmrF5Qh/video.png" alt="video" border="0">
-            </div>
+          <div class="yellow">
+            <b class="proposal-text">Esse é o nosso propósito e como atuamos:</b>
+          </div>
+          <div>
+            <img class="computer" src="https://i.ibb.co/gmrF5Qh/video.png" alt="video" border="0" />
+          </div>
         </div>
-        <div>
-
+        <div class="detach-header">
+          <h1 class="heading">/ em destaque</h1>
+          <p class="text">Tem muito conteúdo interessante disponível nos nossos canais.</p>
+          <p class="text">Dá uma olhada nas novidades que separamos para você:</p>
+          <div class="detach">
+            <div class="row">
+              <div class="detach-content">
+                <a href="">
+                  <img src="https://i.ibb.co/chxWbYX/Layer-1.png" alt="Layer-1" border="0" />
+                </a>
+                <p>O digital não é mais o futuro, é a realidade do mercado anunciante. Sua empresa acompanha esse movimento?</p>
+              </div>
+              <div class="detach-content">
+                <a href="">
+                  <img src="https://i.ibb.co/Y3vGPYK/Layer-3.png" alt="Layer-3" border="0" />
+                </a>
+                <p>Entenda como o YouTube pode mudar a maneira como você se relaciona com seus consumidores.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="detach-content">
+                <a href="">
+                  <img src="https://i.ibb.co/Yhf8xj5/Layer-2.png" alt="Layer-2" border="0" />
+                </a>
+                <p>Como governos podem ter uma comunicação mais eficiente com os cidadãos com a ajuda do digital?</p>
+              </div>
+              <div class="detach-content">
+                <a href="">
+                  <img src="https://i.ibb.co/yN8FrdJ/Layer-4.png" alt="Layer-4" border="0" />
+                </a>
+                <p>Fique por dentro de tudo o que acontece no Time de Novos Negócios: acesse o nosso Hub.*</p>
+                <p class="detach-obs">* Se tiver algum problema no acesso, entre em contato pelo e-mail marketing-novos-negocios@google.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proposal">
+          <div class="yellow">
+            <b class="proposal-text">Esse é o nosso propósito e como atuamos:</b>
+          </div>
+          <div>
+            <img class="computer" src="https://i.ibb.co/gmrF5Qh/video.png" alt="video" border="0" />
+          </div>
         </div>
       </div>
     </article>
